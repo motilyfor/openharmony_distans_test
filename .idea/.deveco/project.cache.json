@@ -1,0 +1,12 @@
+{
+	"BuildOptions":{
+		"BUNDLE_NAME":"com.example.myapplication.hmservice",
+		"BUILD_PATH":{
+			"OUTPUT_PATH":"C:\\Users\\Administrator\\DevEcoStudioProjects\\MyApplication\\build\\outputs\\default"
+		},
+		"SELECT_BUILD_PRODUCT":"default"
+	},
+	"CommonInfo":{
+		"project.ide.version":"3.0.0.991"
+	}
+}

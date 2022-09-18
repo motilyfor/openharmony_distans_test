@@ -1,0 +1,12 @@
+{
+  "totalTime": 83446943900,
+  "moduleNum": 1,
+  "taskTime": {
+    "sdkDirInit": 62159500,
+    "compileETS": 64057950600,
+    "compileJS": 66500,
+    "compileResource": 274604400,
+    "packageHap": 914402800,
+    "signHap": 10552528000
+  }
+}
