@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.example.myapplication.hmservice",
+    "bundleName": "com.motilyfor.testservice",
     "vendor": "example",
     "version": {
       "code": 1000000,
@@ -9,7 +9,7 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "com.example.entry",
+    "package": "com.motilyfor.entry",
     "name": ".entry",
     "mainAbility": ".MainAbility",
     "deviceType": [

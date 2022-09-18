@@ -1,6 +1,6 @@
 import BaseModel from './BaseModel';
 
-const TAG = "HYC:"
+const TAG = "HYC"
 /**
  * Log level
  */
@@ -37,33 +37,33 @@ const LOG_LEVEL = LogLevel.INFO
  *  log package tool class
  */
 export class LogUtil extends BaseModel {
-  debug(msg): void {
+  debug(tag,msg): void {
     if (LogLevel.DEBUG >= LOG_LEVEL) {
-      console.info(TAG+msg);
+      console.info(TAG+":" + tag + ":"+msg);
     }
   }
 
-  log(msg): void {
+  log(msg,tag): void {
     if (LogLevel.INFO >= LOG_LEVEL) {
-      console.log(TAG+msg);
+      console.log(TAG+":" + tag + ":"+msg);
     }
   }
 
-  info(msg): void {
+  info(msg,tag): void {
     if (LogLevel.INFO >= LOG_LEVEL) {
-      console.info(TAG+msg);
+      console.info(TAG+":" + tag + ":"+msg);
     }
   }
 
-  warn(msg): void {
+  warn(msg,tag): void {
     if (LogLevel.WARN >= LOG_LEVEL) {
-      console.warn(TAG+msg);
+      console.warn(TAG+":" + tag + ":"+msg);
     }
   }
 
-  error(msg): void {
+  error(msg,tag): void {
     if (LogLevel.ERROR >= LOG_LEVEL) {
-      console.error(TAG+msg);
+      console.error(TAG+":" + tag + ":"+msg);
     }
   }
 }
