@@ -3,3 +3,7 @@
 /.idea
 **/build
 /.hvigor
+.idea
+.hvigor
+build-profile.json5
+entry/package-lock.json

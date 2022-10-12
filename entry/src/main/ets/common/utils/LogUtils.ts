@@ -43,25 +43,25 @@ export class LogUtil extends BaseModel {
     }
   }
 
-  log(msg,tag): void {
+  log(tag,msg): void {
     if (LogLevel.INFO >= LOG_LEVEL) {
       console.log(TAG+":" + tag + ":"+msg);
     }
   }
 
-  info(msg,tag): void {
+  info(tag,msg): void {
     if (LogLevel.INFO >= LOG_LEVEL) {
       console.info(TAG+":" + tag + ":"+msg);
     }
   }
 
-  warn(msg,tag): void {
+  warn(tag,msg): void {
     if (LogLevel.WARN >= LOG_LEVEL) {
       console.warn(TAG+":" + tag + ":"+msg);
     }
   }
 
-  error(msg,tag): void {
+  error(tag,msg): void {
     if (LogLevel.ERROR >= LOG_LEVEL) {
       console.error(TAG+":" + tag + ":"+msg);
     }

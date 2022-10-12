@@ -3,18 +3,18 @@ import LogUtil from '../common/utils/LogUtils'
 
 export default {
   onCreate() {
-    LogUtil.info("", 'Application onCreate')
+    LogUtil.info('Application onCreate')
     let promise = featureAbility.startAbility(
       {
         want:
         {
-          bundleName: "com.example.myapplication.hmservice",
-          abilityName: "com.example.entry.ServiceAbility",
+          bundleName: "com.motilyfor.testservice",
+          abilityName: "com.motilyfor.entry.ServiceAbility",
         },
       }
     );
   },
   onDestroy() {
-    LogUtil.info("", 'Application onDestroy')
+    console.info('Application onDestroy')
   },
 }
