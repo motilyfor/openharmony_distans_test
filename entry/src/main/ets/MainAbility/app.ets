@@ -3,7 +3,7 @@ import LogUtil from '../common/utils/LogUtils'
 
 export default {
   onCreate() {
-    LogUtil.info('Application onCreate')
+    LogUtil.info("",'Application onCreate')
     let promise = featureAbility.startAbility(
       {
         want:
@@ -15,6 +15,6 @@ export default {
     );
   },
   onDestroy() {
-    console.info('Application onDestroy')
+    LogUtil.info("",'Application onDestroy')
   },
 }
